@@ -1,0 +1,22 @@
+name: "Meet keebs"
+title: "Meet keebs"
+description: "Meet other keebers in Norway"
+baseurl: "/keebs/meets"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+collections:
+  posts:
+    output: true
+    permalink: /:title/
+  pages:
+    output: true
+    permalink: /:title/
+  keyboards:
+    output: true
+    permalink: /:title/
+plugins:
+  - jekyll-seo-tag
+markdown: kramdown
+encoding: UTF-8
+timezone: Europe/Oslo
+exclude: [LICENSE, README.md, Gemfile, Gemfile.lock]
