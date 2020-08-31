@@ -1,19 +1,7 @@
-name: "Meet keebs"
-title: "Meet keebs"
+name: "Meets"
+title: "Meets"
 description: "Meet other keebers in Norway"
-baseurl: "/keebs/meets"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-collections:
-  posts:
-    output: true
-    permalink: /:title/
-  pages:
-    output: true
-    permalink: /:title/
-  keyboards:
-    output: true
-    permalink: /:title/
+baseurl: "/meets"
 plugins:
   - jekyll-seo-tag
 markdown: kramdown
